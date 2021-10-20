@@ -1,0 +1,35 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+#hader{
+    display: flex;
+    background-image: url(images/top\ baner.png);
+    background-repeat: no-repeat;
+    margin: 0%;
+
+
+}
+h1{
+    font-size: 50px;
+}
+
+.hader-part{
+    width: 50%;
+    padding-left: 5%;
+
+}
+.text-color{
+    color:rgb(26, 194, 236);
+
+}
+.link-color{
+    padding: 10px 40px;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient( rgb(7, 83, 170), rgb(18, 187, 230));
+    border-radius: 10px;
+}
+.hader-part img{
+    width: 130%;
+    size: 50%%;
+}
