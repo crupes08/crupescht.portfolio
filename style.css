@@ -6,6 +6,7 @@ body{
     background-image: url(images/top\ baner.png);
     background-repeat: no-repeat;
     margin: 0%;
+    margin-bottom: 10%;
 
 
 }
@@ -30,6 +31,27 @@ h1{
     border-radius: 10px;
 }
 .hader-part img{
-    width: 130%;
+    width: 100%;
     size: 50%%;
 }
+
+
+
+#dream-area{
+
+    display: flex;
+    background-image: url(images/shape1-01.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+}
+.dream-area-part img{
+    width: 100%;
+    
+    
+}
+
+.dream-area-part{
+    width: 50%;
+    padding-right: 5%;
