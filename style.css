@@ -1,12 +1,16 @@
 body{
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 #hader{
     display: flex;
-    background-image: url(images/top\ baner.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     margin: 0%;
     margin-bottom: 10%;
+    width: 100%;
+    background-size: 100%;
+
 
 
 }
@@ -21,6 +25,7 @@ h1{
 }
 .text-color{
     color:rgb(26, 194, 236);
+    
 
 }
 .link-color{
@@ -32,18 +37,20 @@ h1{
 }
 .hader-part img{
     width: 100%;
-    size: 50%%;
+    size: 50%;
 }
+
 
 
 
 #dream-area{
 
     display: flex;
-    background-image: url(images/shape1-01.png);
+    background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-
+    /* width: 100%;
+    background-size: 50%; */
 
 }
 .dream-area-part img{
@@ -61,10 +68,13 @@ h1{
 
 
 #experience-area{
-    background-image: url(images/shape1-01.png );
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    padding: 5%;
+     padding: 5%;
+    /* width: 100%; */
+    /* background-size: 50%; */ 
+    
 
 }
 #experience-area-part{
@@ -99,4 +109,9 @@ h1{
     border-image: linear-gradient(180deg,blue,red);
     border-image-slice: 1;
     padding: 10px;
+}
+
+
+footer{
+    text-align: center;
 }
